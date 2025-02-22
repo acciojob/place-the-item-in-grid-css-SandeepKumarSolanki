@@ -2,17 +2,18 @@
 /* Your CSS Code here. */
 
 .holder{
-	width : 500px;
-	height : 500px;
+	width : 400px;
+	height : 400px;
 	background-color : lightblue;
 	border : 2px solid brown;
 	display : grid;
-	grid-template-columns : repeat(2 , 200px);
-	grid-template-rows : repeat(2 , 200px);
-	gap: 2rem;
-	padding-top : 50px;
+	grid-template-columns : repeat(2 , 100px);
+	grid-template-rows : repeat(2 , 100px);
 	justify-content : center;
 	align-items : center;
+	gap: 2rem;
+	padding-top : 50px;
+	
 }
 
 .item{
